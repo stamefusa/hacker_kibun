@@ -25,6 +25,7 @@ class GifDisp {
    is_disp = true;
  }
  
+ 
  void draw() {
    image(img, my_x, my_y);
  }
@@ -52,6 +53,6 @@ class GifDisp {
  }
  
  boolean canDisp() {
-   return (my_life < -30);
+   return (my_life < random(-50, -30));
  }
 }

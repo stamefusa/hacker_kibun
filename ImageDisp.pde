@@ -49,6 +49,6 @@ class ImageDisp {
  }
  
  boolean canDisp() {
-   return (my_life < -30);
+   return (my_life < random(-30, -20));
  }
 }
